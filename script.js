@@ -55,7 +55,7 @@ caracterRange.addEventListener('change', function () {
         nvl2.style.backgroundColor = '#A5FFAF'
         nvl3.style.backgroundColor = '#A5FFAF'
         nvl4.style.backgroundColor = '#a5ffaf00'
-    } else if(caracterRange.value >= 16 && caracterRange.value == 20 ){
+    } else if(caracterRange.value >= 16 && caracterRange.value <= 20 ){
         nvl1.style.backgroundColor = '#A5FFAF'
         nvl2.style.backgroundColor = '#A5FFAF'
         nvl3.style.backgroundColor = '#A5FFAF'
