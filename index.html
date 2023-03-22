@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senhas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <main>
+            <div id="pass"><input id="passInput" type="text" placeholder="P4$5W0rD!" disabled> <img id="copy"
+                    src="imagens/copy.png" alt="">
+            </div>
+
+            <section>
+                <div id="quantity">
+                    <h4>Quantidade de caracteres</h4> <span id="caracterN">0</span>
+                </div>
+
+
+                <div><input min="0" max="20" class="input" id="caracterRange" type="range" value="0"></div>
+                <div class="input"> <input id="uper" type="checkbox"> <label for="uper">Letras maiúsculas</label></div>
+                <div class="input"><input id="lower" type="checkbox"> <label for="lower">Letras minúsculas</label></div>
+                <div class="input"><input id="number" type="checkbox"> <label for="numbers">Números</label></div>
+                <div class="input"><input id="simbol" type="checkbox"> <label for="simbols">Símbolos</label> </div>
+                <div id="medidor" type="text">
+                    <h4>Força</h4>
+                    <div id="nivel"><span id="nvl1"></span> <span id="nvl2"></span> <span id="nvl3"></span> <span
+                            id="nvl4"></span></div>
+                </div>
+                <button id="gerar">GERAR -> </button>
+            </section>
+        </main>
+    </div>
+
+
+</body>
+
+</html>
